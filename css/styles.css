@@ -1,34 +1,124 @@
-/* body{
+body{
     background-image: url('../images/background-sunflowers.png');
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-indent: 2%; 
+    color: #665B4D;
+    text-align: left;
     background-position: top right;
     background-attachment: scroll;
-    background-size: cover;
-    width: 750px;
-    height: 1250px;
-} */
+}
+div{
+  background-color: #FDF3EC;
+  margin: 100px;
+  padding: 100px;
+  border: 50px;
+  border-style: groove;
+  border-width: 50px;
+  border-color: #334810;
+  border-radius: 50px;
+  text-align: left;
+}
+h1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-indent: 0%;
+}
+h2{
 
-/* Style all font awesome icons */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  
+}
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:italic;
+  font-size: 15px;
+}
+
+table, th, td{
+ border: colapse;
+ text-align: center;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+  background-color: #FDF3EC;
+}
+td{
+  font-weight: bold;
+}
+th{
+  font-size:x-large;
+}
+
+footer{
+  background-color: #3E6479;
+  color:#FDF3EC;
+  text-indent:0%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.centertext{
+  text-align: center;
+}
+
+.thumb-nail-img {
+  border: 5px solid #C98D26;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px
+}
+
+a:link {
+  color:#FDF3EC;
+  text-decoration:none;
+}
+
+a:visited {
+  color:#FDF3EC; 
+}
+a:hover {
+  color:#C98D26;
+  text-decoration-line:underline;
+}
+
+#profilepic{
+  float:right;
+  clear:left;
+  margin-top: -100px;
+}
+
+#vdh-initials{
+  float:left;
+  clear:right;
+  margin-top: -25px;
+}
+
+#booknowdiv{
+  background-color: #3E6479;
+  color:#FDF3EC;
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  border: 1px;
+  border-style:dotted;
+}
+
+/* font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
-  }
-  .fa-regular {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none; 
+    border-radius: 10px;
+    position: relative;
   }
   
-  /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
-  
-  /* Set a specific color for each brand */
   
   /* Facebook */
   .fa-facebook {
@@ -43,6 +133,7 @@
   }
     /* Google */
     .fa-google {
-        background: green;
+        background:crimson;
         color: white;
       }
+
